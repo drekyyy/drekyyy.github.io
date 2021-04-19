@@ -271,7 +271,7 @@ const questions = [{
                 correct: true
             }
         ],
-        explanation: 'Poprawno odpowiedź to... D. Drewniane paliki wbite na sztorc lub B. Żwir, kamień, asfalt. Można też skorzystać z płyty chodnikowej, kostki betonowej i wielu innych...'
+        explanation: 'Poprawna odpowiedź to... D. Drewniane paliki wbite na sztorc lub B. Żwir, kamień, asfalt. Można też skorzystać z płyty chodnikowej, kostki betonowej i wielu innych...'
     },
     {
         question: 'KYNOLOGIA:\nKtóre rasy psów pochodzą z Polski?',
@@ -348,22 +348,26 @@ const questions = [{
         image4: 'blank',
         answers: [{
                 text: 'A. Badania naukowe, do opieki',
-                correct: true
+                correct: false
             },
             {
                 text: 'B. Cele szkoleniowe, przemysłowe, badawcze',
-                correct: true
+                correct: false
             },
             {
                 text: 'C. Praca w nanoskali',
-                correct: true
+                correct: false
             },
             {
                 text: 'D. Cele medyczne, militarne, rozrywkowe',
+                correct: false
+            },
+            {
+                text: 'E. Wszystkie odpowiedzi są prawidłowe',
                 correct: true
             }
         ],
-        explanation: 'Wszystkie odpowiedzi są prawdziwe. A może znasz jeszcze jakieś? :)'
+        explanation: 'Poprawna odpowiedź to E: Wszystkie odpowiedzi są prawidłowe. A może znasz jeszcze jakieś? :)'
     },
     {
         question: 'ELEKTROTECHNIKA:\nNazwa elektryczności wzięła się:',
@@ -394,18 +398,22 @@ const questions = [{
         image4: 'blank',
         answers: [{
                 text: 'A. Pogorszenie się wzroku i słuchu',
-                correct: true
+                correct: false
             },
             {
                 text: 'B. Problemy z koncentracją',
-                correct: true
+                correct: false
             },
             {
                 text: 'C. Otyłość',
+                correct: false
+            },
+            {
+                text: 'D. Wszystkie odpowiedzi są prawdziwe',
                 correct: true
             }
         ],
-        explanation: 'Wszystkie odpowiedzi są prawdziwe. Smartfon oddziałuje na wiele naszych zmysłów. Jeśli słuchamy dużo głośnych dźwięków, zwłaszcza przez słuchawki, to pogorszy nam się słuch. Od patrzenia w światło ekranu osłabi się wzrok. Pojawią się też problemy z koncentracją i otyłością. Niestety to tylko początek, bo prawdziwe spustoszenie uzależnienie od smartfona przyniesie naszej psychice. Spowoduje odizolowanie się od najbliższych, brak właściwego kontaktu ze światem zewnętrznym, a w efekcie kłopot z życiem bez wirtualnej rzeczywistości…'
+        explanation: 'Poprawna odpowiedź to: D: Wszystkie odpowiedzi są prawdziwe. Smartfon oddziałuje na wiele naszych zmysłów. Jeśli słuchamy dużo głośnych dźwięków, zwłaszcza przez słuchawki, to pogorszy nam się słuch. Od patrzenia w światło ekranu osłabi się wzrok. Pojawią się też problemy z koncentracją i otyłością. Niestety to tylko początek, bo prawdziwe spustoszenie uzależnienie od smartfona przyniesie naszej psychice. Spowoduje odizolowanie się od najbliższych, brak właściwego kontaktu ze światem zewnętrznym, a w efekcie kłopot z życiem bez wirtualnej rzeczywistości…'
     },
     {
         question: 'INFORMATYKA:\nWskaż jak duży był pierwszy komputer:',
@@ -426,7 +434,7 @@ const questions = [{
                 correct: false
             }      
         ],
-        explanation: 'Poprawna odpowiedź to...A. 140m2, czyli trochę mniej, niż boisko do siatkówki. Naprawdę! Był prawie tak duży jak boisko do siatkówki. Zbudowano go w 1946 roku, a zaprezentowano publicznie w Walentynki – 14 lutego. Było to w USA, w Pensylwanii, na Uniwersytecie. Komputer ten ważył 27 ton… czyli tyle co 5 słoni. Czerpał też mnóstwo energii. I dał początek wszystkim otaczającym nas komputerom.'
+        explanation: 'Poprawna odpowiedź to... A. 140m2, czyli trochę mniej, niż boisko do siatkówki. Naprawdę! Był prawie tak duży jak boisko do siatkówki. Zbudowano go w 1946 roku, a zaprezentowano publicznie w Walentynki – 14 lutego. Było to w USA, w Pensylwanii, na Uniwersytecie. Komputer ten ważył 27 ton… czyli tyle co 5 słoni. Czerpał też mnóstwo energii. I dał początek wszystkim otaczającym nas komputerom.'
     },
     {
         question: 'INFORMATYKA:\nNazwa GOOGLE powstała:',
@@ -447,7 +455,7 @@ const questions = [{
                 correct: true
             }      
         ],
-        explanation: 'Poprawna odpowiedź to...C. Od słowa „googol” oznaczającego dziesięć do potęgi setnej i była to pomyłka L.Page’a, twórcy Google. Choć trudno w to uwierzyć, GOOGLE powstało przypadkiem. Podobnie zresztą jak płatki śniadaniowe i wiele innych wynalazków. Pamiętaj: nie myli się tylko ten, kto niczego nie robi, a pomyłki czasem są najlepszym rozwiązaniem!'
+        explanation: 'Poprawna odpowiedź to... C. Od słowa „googol” oznaczającego dziesięć do potęgi setnej i była to pomyłka L.Page’a, twórcy Google. Choć trudno w to uwierzyć, GOOGLE powstało przypadkiem. Podobnie zresztą jak płatki śniadaniowe i wiele innych wynalazków. Pamiętaj: nie myli się tylko ten, kto niczego nie robi, a pomyłki czasem są najlepszym rozwiązaniem!'
     },
     {
         question: 'INFORMATYKA:\nZa pierwszego programistę i informatyka uznaje się Adę Augustę hrabinę Lovelace, matematyczkę i pisarkę, która już w 1842 roku zauważyła potencjał maszyny analitycznej Bobbage’a. Zapiski które poczyniła uznano za pierwszy program komputerowy. Czy wiesz, co nazwano jej imieniem?',
@@ -464,7 +472,7 @@ const questions = [{
                 correct: true
             }     
         ],
-        explanation: 'Poprawna odpowiedź to...B. Imieniem ADA nazwano bardzo uniwersalny i zaawansowany język programowania. Jego powstanie spowodowało, że ilość języków używanych do programowania spadła z ponad 450 do 37 (w roku 1983), co znacznie ułatwiło rozwój tej dyscypliny nauki.'
+        explanation: 'Poprawna odpowiedź to... B. Imieniem ADA nazwano bardzo uniwersalny i zaawansowany język programowania. Jego powstanie spowodowało, że ilość języków używanych do programowania spadła z ponad 450 do 37 (w roku 1983), co znacznie ułatwiło rozwój tej dyscypliny nauki.'
     },
     {
         question: 'ENERGETYKA:\nJako Szczecin zapisaliśmy się w historii polskiej energetyki największą awarią energetyczną, czyli blackoutem. Było to 8 kwietnia 2008 roku i spowodowane było silnym wiatrem i olbrzymimi opadami mokrego śniegu. Najszybciej awarię usunięto w samym Szczecinie, zaś pozostałe miasta i wsie borykały się ze skutkami backoutu przez kilka dni. Jak myślisz ile osób pozbawionych było wtedy dostępu do prądu w aglomeracji szczecińskiej:',
@@ -485,7 +493,7 @@ const questions = [{
                 correct: true
             }      
         ],
-        explanation: 'Poprawna odpowiedź to...C. ponad pół miliona mieszkańców odczuło skutki tej awarii. Czy wiesz jak można zabezpieczyć się przed takimi sytuacjami? Sprawdź czym jest agregat prądotórczy i jakie są alternatywne metody pozyskania energii.'
+        explanation: 'Poprawna odpowiedź to... C. ponad pół miliona mieszkańców odczuło skutki tej awarii. Czy wiesz jak można zabezpieczyć się przed takimi sytuacjami? Sprawdź czym jest agregat prądotórczy i jakie są alternatywne metody pozyskania energii.'
     },
     {
         question: 'TRANSPORT:\nTransportujemy także samochodami ciężarowymi. Opracowano nawet odrzutowy model takiego auta - Shockwave. Ma 36 000 koni mechanicznych, 6 kół i rozpędza się do:',
@@ -516,22 +524,25 @@ const questions = [{
         image4: 'blank',
         answers: [{
                 text: 'A. Układy sterowania pojazdami, nowoczesne zabawki',
-                correct: true
+                correct: false
             },
             {
                 text: 'B. Zaawansowane urządzenia i elektronikę użytkową',
-                correct: true
+                correct: false
             },
             {
                 text: 'C. Roboty przemysłowe i urządzenia automatyki i robotyki',
-                correct: true
+                correct: false
             },
             {
                 text: 'D. Aparaturę medyczną, narzędzia do nanopomiarów, mikroukłady elektromechaniczne',
+                correct: false
+            {
+                text: 'E. Wszystkie odpowiedzi są prawidłowe',
                 correct: true
-            }          
+            }            
         ],
-        explanation: 'Wszystkie odpowiedzi są prawidłowe! Produkty mechatroniki powinny być wielofunkcyjne, łatwo konfigurowalne i elastyczne, adaptowalne i łatwe w obsłudze.'
+        explanation: 'Poprawna odpowiedź to... E. Wszystkie odpowiedzi są prawidłowe. Produkty mechatroniki powinny być wielofunkcyjne, łatwo konfigurowalne i elastyczne, adaptowalne i łatwe w obsłudze.'
     },
     {
         question: 'OCHRONA SRODOWISKA:\nWskaż, które produkty wyrzucone np. w lesie rozkładają się kolejno: 2 lata, 5 lat, 500 lat.',
@@ -541,7 +552,7 @@ const questions = [{
         image4: 'blank',
         answers: [{
                 text: 'A. Niedopałki papierosów, guma do żucia, plastikowa butelka',
-                correct: false
+                correct: true
             },
             {
                 text: 'B. Styropianowa tacka do żywności, puszka, papierowa torba',
@@ -549,7 +560,7 @@ const questions = [{
             },
             {
                 text: 'C. Opakowanie po chipsach, zapalniczka, zapałki',
-                correct: true
+                correct: false
             }      
         ],
         explanation: 'Poprawna odpowiedź to: A... Troska o środowisko to także segregowanie śmieci i ich powtórne wykorzystywane. Każda szklana butelka wykorzystana ponownie pozwoli zaoszczędzić tyle energii ile potrzeba 100 watowej żarówce do świecenia przez 4 godziny. Jeśli wyrzucisz te rzeczy np. w lesie, to rozłożą się kolejno: 2 lata – niedopałki papierosów, 5 lat – guma do żucia, 500 lat – plastykowa butelka i styropianowa tacka do żywności.'
@@ -577,11 +588,12 @@ const questions = [{
                 correct: false
             },
             {
-                text: 'E. Wszystkie wyżej wymienione oprócz B.',
+                text: 'E. Wszystkie wyżej wymienione oprócz paliw kopalnych',
                 correct: true
-            }     
+            },
+                 
         ],
-        explanation: 'Poprawna odpowiedź to: E. Wszystkie wyżej wymienione oprócz B. paliwa kopalne... Mamy pięć głównych odnawialnych źródeł energii: biomasy, geotermalne, wiatru, słoneczne i wodne. Ostatnie możemy podzielić na energie: pływów, mechaniczną wody i chemiczną wody, a także np. energię termiczną oceanów. A może Ty znajdziesz jeszcze inne źródło?'
+        explanation: 'Poprawna odpowiedź to: E. Wszystkie wyżej wymienione oprócz paliw kopalnych... Mamy pięć głównych odnawialnych źródeł energii: biomasy, geotermalne, wiatru, słoneczne i wodne. Ostatnie możemy podzielić na energie: pływów, mechaniczną wody i chemiczną wody, a także np. energię termiczną oceanów. A może Ty znajdziesz jeszcze inne źródło?'
     },
     {
         question: 'MIKROBIOLOGIA STOSOWANA:\nMedal Leeuwenhoeka przyznaje się za wybitny wkład w rozwój mikrobiologii. Przyznaje go od 1877 roku Holenderska Akademia Sztuk i Nauk. Jego nazwa pochodzi od nazwiska holenderskiego przedsiębiorcy i przyrodnika Antoniego van Leeuwenhoeka, który wynalazł:',
@@ -590,23 +602,23 @@ const questions = [{
         image3: 'blank',
         image4: 'blank',
         answers: [{
-                text: 'A. mikroskop',
+                text: 'A. Mikroskop',
                 correct: true
             },
             {
-                text: 'B. lunetę do szczegółowej obserwacji księżyca',
+                text: 'B. Lunetę do szczegółowej obserwacji księżyca',
                 correct: false
             },
             {
-                text: 'C. naftalinę',
+                text: 'C. Naftalinę',
                 correct: false
             },
             {
-                text: 'D. fiksantynę',
+                text: 'D. Fiksantynę',
                 correct: false
             }        
         ],
-        explanation: 'Poprawna odpowiedź to: A.mikroskop... Antoni van Leeuwenhoek wynalazł oczywiście mikroskop. Zajmował się początkowo kupiectwem i szlifowaniem szkieł. Nazywa się go ojcem mikrobiologii.'
+        explanation: 'Poprawna odpowiedź to: A.Mikroskop... Antoni van Leeuwenhoek wynalazł oczywiście mikroskop. Zajmował się początkowo kupiectwem i szlifowaniem szkieł. Nazywa się go ojcem mikrobiologii.'
     },
     {
         question: 'ICHTIOLOGIA:\nMało kto o tym wie, ale ryby mają zdolność zmiany płci. Jeśli w pobliżu brakuje osobników innej płci, natura broni ryby przed wyginięciem pozwalając na zmianę. To jednak nie wszystko! Ryba może sama zapłodnić swoje jaja będąc samcem zaraz po tym jak złożyła je jako samica. Takie zdolności mają głównie ryby morskie – w sumie 450 gatunków. Rekordzista zmiany płci może dziennie zmienić płeć:',
@@ -620,24 +632,24 @@ const questions = [{
             },
             {
                 text: 'B. 20 razy',
-                correct: false
+                correct: true
             },
             {
                 text: 'C. 60 razy',
-                correct: true
+                correct: false
             }      
         ],
         explanation: 'Poprawna odpowiedź to: B. 20. Ryba ta nosi nazwę Serranellus tortugarum.'
     },
     {
-        question: 'OCHRONA SRODOWISKA:\nWskaż, które produkty wyrzucone np. w lesie rozkładają się kolejno: 2 lata, 5 lat, 500 lat.',
+        question: 'OCHRONA ŚRODOWISKA:\nWskaż, które produkty wyrzucone np. w lesie rozkładają się kolejno: 2 lata, 5 lat, 500 lat.',
         image1: 'blank',
         image2: 'blank',
         image3: 'blank',
         image4: 'blank',
         answers: [{
                 text: 'A. Niedopałki papierosów, guma do żucia, plastikowa butelka',
-                correct: false
+                correct: true
             },
             {
                 text: 'B. Styropianowa tacka do żywności, puszka, papierowa torba',
@@ -645,7 +657,7 @@ const questions = [{
             },
             {
                 text: 'C. Opakowanie po chipsach, zapalniczka, zapałki',
-                correct: true
+                correct: false
             }      
         ],
         explanation: 'Poprawna odpowiedź to: A... Troska o środowisko to także segregowanie śmieci i ich powtórne wykorzystywane. Każda szklana butelka wykorzystana ponownie pozwoli zaoszczędzić tyle energii ile potrzeba 100 watowej żarówce do świecenia przez 4 godziny. Jeśli wyrzucisz te rzeczy np. w lesie, to rozłożą się kolejno: 2 lata – niedopałki papierosów, 5 lat – guma do żucia, 500 lat – plastykowa butelka i styropianowa tacka do żywności.'
@@ -787,5 +799,5 @@ const questions = [{
             },   
         ],
         explanation: 'Poprawna odpowiedź to: A. Zamarza w temperaturze, w której powinna wrzeć... Naukowcy byli mocno zdziwieni takim obrotem spraw, bowiem wcześniej myśleli, że nanoprzestrzeń może obniżać a nie podnosić temperaturę zamarzania wody. Samo doświadczenie również było trudne, bowiem nanorurki są materiałem hydrofobowym, co oznacza, że jest niezwilżalny przez wodę, jak np. rosa na powierzchni liścia, czy trawy (tworzy mokrą kulę).'
-    },
+    }
 ]
