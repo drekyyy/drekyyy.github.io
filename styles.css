@@ -37,6 +37,7 @@ body.wrong {
 } */
 
 .container {
+
     width: 800px;
     max-width: 80%;
     background-color: white;
@@ -49,6 +50,7 @@ body.wrong {
     
     width: 100%;
     /* height:20px; */
+    padding:5px;
     background-color:darkblue;
     display:flex;
     flex-direction:column;
