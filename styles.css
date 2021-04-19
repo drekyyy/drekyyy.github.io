@@ -63,6 +63,7 @@ body.wrong {
 } 
 .correctAnswerCount{
     padding:5px;
+    font-size:1rem;
     justify-content:flex-end;
     color:white;
     
