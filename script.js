@@ -249,7 +249,7 @@ const questions = [{
         explanation: 'Poprawna odpowiedz to...  B. Coca Cola. Tak, to o niej mowa.'
     },
     {
-        question: 'PROEJKTOWANIE ARCHITEKTURY WNĘTRZ I OTOCZENIA:\nZ których materiałów można wykonać ścieżkę w ogrodzie? Czy wiesz, że do takiego celu można z powodzeniem użyć materiałów z recyklingu, jak na przykład: starych podkładów kolejowych, czy cegły rozbiórkowej? ',
+        question: 'PROJEKTOWANIE ARCHITEKTURY WNĘTRZ I OTOCZENIA:\nZ których materiałów można wykonać ścieżkę w ogrodzie? Czy wiesz, że do takiego celu można z powodzeniem użyć materiałów z recyklingu, jak na przykład: starych podkładów kolejowych, czy cegły rozbiórkowej? ',
         image1: 'blank',
         image2: 'blank',
         image3: 'blank',
@@ -630,7 +630,7 @@ const questions = [{
         explanation: 'Poprawna odpowiedź to: B. 20. Ryba ta nosi nazwę Serranellus tortugarum.'
     },
     {
-        question: 'TECHNOLOGIA ŻYWNOSCI I ŻYWIENIE CZŁOWIEKA:\nZe względu na rolę w organizmie wyróżniamy trzy podstawowe grupy składników odżywczych zawartych w pokarmach. Są to: 1. białka i sole mineralne, 2. węglowodany i tłuszcze, oraz 3. witaminy i niektóre sole mineralne, błonnik. Połącz je w pary z nazwami grup: a. składniki budulcowe, b. składniki regulujące, c. składniki energetyczne.',
+        question: 'OCHRONA SRODOWISKA:\nWskaż, które produkty wyrzucone np. w lesie rozkładają się kolejno: 2 lata, 5 lat, 500 lat.',
         image1: 'blank',
         image2: 'blank',
         image3: 'blank',
@@ -651,7 +651,7 @@ const questions = [{
         explanation: 'Poprawna odpowiedź to: A... Troska o środowisko to także segregowanie śmieci i ich powtórne wykorzystywane. Każda szklana butelka wykorzystana ponownie pozwoli zaoszczędzić tyle energii ile potrzeba 100 watowej żarówce do świecenia przez 4 godziny. Jeśli wyrzucisz te rzeczy np. w lesie, to rozłożą się kolejno: 2 lata – niedopałki papierosów, 5 lat – guma do żucia, 500 lat – plastykowa butelka i styropianowa tacka do żywności.'
     },
     {
-        question: 'OCHRONA SRODOWISKA:\nWskaż, które produkty wyrzucone np. w lesie rozkładają się kolejno: 2 lata, 5 lat, 500 lat.',
+        question: 'TECHNOLOGIA ŻYWNOSCI I ŻYWIENIE CZŁOWIEKA:\nZe względu na rolę w organizmie wyróżniamy trzy podstawowe grupy składników odżywczych zawartych w pokarmach. Są to: 1. białka i sole mineralne, 2. węglowodany i tłuszcze, oraz 3. witaminy i niektóre sole mineralne, błonnik. Połącz je w pary z nazwami grup: a. składniki budulcowe, b. składniki regulujące, c. składniki energetyczne.',
         image1: 'blank',
         image2: 'blank',
         image3: 'blank',
