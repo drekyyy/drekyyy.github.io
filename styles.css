@@ -6,9 +6,9 @@
 }
 
 :root {
-    --hue-neutral: 200;
+    --hue-neutral: 245;
     --hue-wrong: 0;
-    --hue-correct: 145;
+    --hue-correct: 105;
 }
 
 body {
@@ -77,7 +77,10 @@ body.wrong {
     
 }
 img{
-    width:100%; 
+    /* width:30vw; */
+    width:50%;
+   
+    flex-shrink:1;
 }
 
 .btn-grid {
