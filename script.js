@@ -537,6 +537,7 @@ const questions = [{
             {
                 text: 'D. Aparaturę medyczną, narzędzia do nanopomiarów, mikroukłady elektromechaniczne',
                 correct: false
+            },
             {
                 text: 'E. Wszystkie odpowiedzi są prawidłowe',
                 correct: true
@@ -544,6 +545,7 @@ const questions = [{
         ],
         explanation: 'Poprawna odpowiedź to... E. Wszystkie odpowiedzi są prawidłowe. Produkty mechatroniki powinny być wielofunkcyjne, łatwo konfigurowalne i elastyczne, adaptowalne i łatwe w obsłudze.'
     },
+    
     {
         question: 'OCHRONA SRODOWISKA:\nWskaż, które produkty wyrzucone np. w lesie rozkładają się kolejno: 2 lata, 5 lat, 500 lat.',
         image1: 'blank',
