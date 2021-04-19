@@ -214,7 +214,7 @@ const questions = [{
     {
         question: 'What is 2+3/3?',
         image1: 'https://ocdn.eu/pulscms-transforms/1/fluk9kpTURBXy9hYzQ5NzEzYWRiNzM2Y2Q0MDhiNjU5YTRhZWVmN2MwNi5qcGeSlQMANs0DwM0CHJUCzQIaAMPDgaExAQ',
-        image2: 'blank',
+        image2: 'gimli.png',
         image3: 'blank',
         image4: 'blank',
         answers: [{
