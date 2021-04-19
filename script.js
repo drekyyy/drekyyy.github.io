@@ -82,7 +82,7 @@ function startGame() {
     questionContainerElement.classList.remove('hide')
     setNextQuestion()
     correctAnswerCount=0
-    answerCount.innerHTML='Poprawne odpowiedzi:'+correctAnswerCount+'/'+shuffledQuestions.length
+    answerCount.innerHTML='Poprawne odpowiedzi: '+correctAnswerCount+' / '+shuffledQuestions.length
 }
 
 function setNextQuestion() {
@@ -155,7 +155,7 @@ function selectAnswer(e) {
         correctAnswerCount+=1
         answerFlag=1
     } else answerFlag=1
-    answerCount.innerHTML='Poprawne odpowiedzi:'+correctAnswerCount+'/'+shuffledQuestions.length
+    answerCount.innerHTML='Poprawne odpowiedzi: '+correctAnswerCount+' / '+shuffledQuestions.length
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
         nextButton.classList.remove('hide')
     } else {
