@@ -91,7 +91,7 @@ function setNextQuestion() {
 }
 
 function showQuestion(question) {
-    questionElement.innerText = question.question
+    questionElement.innerText = 1+currentQuestionIndex+'. '+question.question
     if (question.image1 !== 'blank') {
         img1.src = question.image1
         src = document.getElementById("img1")
