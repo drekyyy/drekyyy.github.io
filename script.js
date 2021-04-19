@@ -51,7 +51,7 @@ let correctAnswerCount=0;
 //startButton.addEventListener('click', startGame)
 startButton.addEventListener('click', () => {
     if (startButton.innerText=='Koniec'){
-        div.innerText="To koniec quizu!"
+        div.innerText="To było ostatnie pytanie :) "+shuffledQuestions[currentQuestionIndex].explanation
         body.append(div)
         div.append(RestartButton)
         divContainer.style.filter='blur(8px)'
